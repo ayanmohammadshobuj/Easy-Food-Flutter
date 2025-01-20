@@ -1,16 +1,77 @@
-# easy_fooods_delivery
+# Easy Foods Delivery
 
-A new Flutter project.
+Easy Foods Delivery is a Flutter application for ordering food from various restaurants. The app allows users to browse restaurants, view their menus, place orders, and manage their cart. Users can also view their order history and print invoices.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Browse restaurants and view their menus
+- Add items to the cart and place orders
+- View order history and order details
+- Print order invoices and save them as PDFs
+- User authentication and profile management
+- Coupons and offers
+- Help and support
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Home Screen](assets/images/home_screen.png)
+![Order Screen](assets/images/order_screen.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/easy-foods-delivery.git
+   cd easy-foods-delivery
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app:**
+
+   ```bash
+   flutter run
+   ```
+
+## Dependencies
+
+- `flutter`
+- `shared_preferences`
+- `http`
+- `printing`
+- `pdf`
+- `font_awesome_flutter`
+
+## Usage
+
+1. **Home Screen:**
+   - Browse restaurants and view their menus.
+   - Use the search bar to find specific items or restaurants.
+
+2. **Cart:**
+   - Add items to the cart and proceed to checkout.
+
+3. **Orders:**
+   - View order history and order details.
+   - Print order invoices and save them as PDFs.
+
+4. **Profile:**
+   - Manage user profile and view account details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please contact [yourname@example.com](mailto:mdshobuj968@gmail.com).
+```
